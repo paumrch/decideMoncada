@@ -190,12 +190,23 @@ button {
 body {
   color: whitesmoke;
   background-color: #111fff;
+  margin: auto;
 }
 
-body .footerFull {
+body main {
+  margin-left: 2vw;
+}
+
+body footer {
+  margin-top: 5vh;
   width: 100%;
-  position: absolute;
-  color: yellowgreen;
+  padding-top: 3vh;
+  height: 4vh;
+  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #111fff;
   background-color: whitesmoke;
 }
 /*# sourceMappingURL=styles.css.map */

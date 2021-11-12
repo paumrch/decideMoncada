@@ -1,20 +1,25 @@
-@import './navbar';
-@import './fonts';
-@import './section';
-@import './form';
-
+@import "./navbar";
+@import "./fonts";
+@import "./section";
+@import "./form";
 
 body {
-    
-    color: whitesmoke;
-    background-color: #111fff;
+  color: whitesmoke;
+  background-color: #111fff;
+  margin: auto;
 
-    .footerFull {
+  main {
+      margin-left: 2vw;
+  }
 
-        width: 100%;
-        position: absolute;
-        color: yellowgreen;
-        background-color: whitesmoke;
-    }
-    
+  footer {
+    margin-top: 5vh;
+    width: 100%;
+    padding-top: 3vh;
+    height: 4vh;
+    vertical-align: middle;
+    align-items: center;
+    color: #111fff;
+    background-color: whitesmoke;
+  }
 }
