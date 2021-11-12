@@ -1,0 +1,32 @@
+nav {
+  width: 100%;
+  padding-top: 2vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    display: inline-flex;
+    margin-left: 3vw;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+  }
+
+  li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 3rem;
+    color: whitesmoke;
+    a {
+      color: whitesmoke;
+    }
+  }
+
+  img {
+    width: 100px;
+    vertical-align: middle;
+  }
+}

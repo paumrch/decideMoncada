@@ -1,0 +1,23 @@
+  .first {
+
+    display: flex;
+    width: 100%;
+    padding-bottom: 5vh;
+
+    .avatar {
+      display: inline-flex;
+      align-items: center;
+
+      img {
+        width: 40vw;
+      }
+    }
+
+    h1 {
+      font-size: 9vw;
+
+      span {
+        font-weight: 300;
+      }
+    }
+  }

@@ -1,0 +1,130 @@
+nav {
+  width: 100%;
+  padding-top: 2vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .logo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 3vw;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav li {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 3rem;
+  color: whitesmoke;
+}
+
+nav li a {
+  color: whitesmoke;
+}
+
+nav img {
+  width: 100px;
+  vertical-align: middle;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #333;
+}
+
+body h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+body li {
+  text-transform: lowercase;
+}
+
+body a {
+  font-weight: normal;
+  font-size: 1rem;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: #333;
+}
+
+.first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-bottom: 5vh;
+}
+
+.first .avatar {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first .avatar img {
+  width: 40vw;
+}
+
+.first h1 {
+  font-size: 9vw;
+}
+
+.first h1 span {
+  font-weight: 300;
+}
+
+.second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.second .aboutMe {
+  display: block;
+  margin-left: 3vw;
+}
+
+.second .aboutMe h2 {
+  font-size: 6vw;
+  background-image: linear-gradient(transparent calc(65% - 5px), #000cc4 5px);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: block;
+  width: 100%;
+  margin: auto;
+  color: whitesmoke;
+  background-color: #111fff;
+}
+/*# sourceMappingURL=styles.css.map */
