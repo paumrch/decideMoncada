@@ -6,8 +6,13 @@ body {
 
     h1 {
         font-weight: bold;
-        font-size: 1.5rem;
-    }
+        font-size: 9vw;
+  
+        span {
+          font-weight: 300;
+        }
+
+      }
 
     li {
         text-transform: lowercase;
@@ -21,6 +26,47 @@ body {
 
     p {
         text-align: justify;
+      }
+
+    select {
+
+        font-size: 0.9 rem;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    input {
+
+        font-size: 0.9 rem;
+        font-family: 'Roboto Mono', monospace;
+
+    }
+
+    button {
+        font-size: 1 rem;
+        font-weight: 700;
+        font-family: 'Roboto Mono', monospace;
+        text-transform: uppercase;
+    }
+
+
+    .underline {
+        background-image: linear-gradient(
+          transparent calc(65% - 5px),
+          darken(#111fff, 15%) 5px
+        );
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: inline;
+
+        h1 {
+            font-weight: bold;
+            font-size: 9vw;
+      
+            span {
+              font-weight: 300;
+            }
+          }
+
       }
 
 }

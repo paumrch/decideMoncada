@@ -102,6 +102,7 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <header>
       <nav class="navbar">
@@ -115,56 +116,92 @@
       </nav>
     </header>
     <main>
+
+      <form action="/" class="propuesta">
+
         <!-- decideMoncada -->
-      <section>
-        <div class="first">
+
+        <div class="section">
           <div>
-            <h1><span>decide</span>Moncada</h1>
-            <p>Plataforma participativa para presentar propuestas a los presupuestos municipales de 2022.</p>
+            <h1 class=""><span>decide</span>Moncada</h1>
+            <p>
+              La plataforma participativa que permite registrar propuestas a los
+              Presupuestos Municipales de 2022 del Ayuntamiento de Moncada.
+            </p>
+            <p>
+              Una iniciativa creada para paliar la desidia del equipo de
+              gobierno de nuestra ciudad.
+            </p>
+            <p>
+              En el presupuesto 2021, solo un 0.096% del total contemplaba
+              inversiones.
+            </p>
           </div>
         </div>
-      <!-- Escribe tu propuesta -->
-        <div class="second">
-            <form action="/">
-                <div class="aboutMe">
-                  <h2>¿Qué te gustaría que se hiciese en Moncada?</h2>
-                  <p>Cuéntanos en unas palabras qué harías o mejorarías en la ciudad. Puede ser una obra, un servicio o cualquier cosa que te gustaría proponer.</p>
-                <textarea rows="5"></textarea>
-              </div>
-              <div class="btn-block">
-                <button type="submit" href="/">Send</button>
-              </div>
-            </form>
-          </div>
-         <!-- Añade información -->
-         <div class="third">
-          <div class="aboutMe">
-            <h2>¿Quieres aportar más información?</h2>
+
+        <!-- Escribe tu propuesta -->
+        
+        <div class="section">
+          <div>
+            <h2 class="underline">
+              ¿Qué te gustaría que se hiciese en Moncada?
+            </h2>
+            <textarea
+              rows="5"
+              placeholder="Escribe aquí tu propuesta //"
+            ></textarea>
           </div>
           <div>
-            <form action="">
-              Aquí formulario
-            </form>
+            <h3 class="underline">
+              <label for="zonas">¿En qué zona?</label>
+            </h3>
+            <select id="zonas" name="zonas" size="10" class="zonas">
+              <option value="centro">Centro</option>
+              <option value="badia">Bº Badía</option>
+              <option value="torres">Bº de las Torres</option>
+              <option value="pilar">Bº del Pilar</option>
+              <option value="sanisidro">San Isidro de Benagéber</option>
+              <option value="sanmiguel">Bº de San Miguel</option>
+              <option value="masias">Masías</option>
+            </select>
+            <h3 class="underline">
+              <label for="otrosMunicipios">
+                ¿Lo has visto en otro municipio?
+              </label>
+            </h3>
+            <input type="text" name="otrosMunicipios" placeholder="¿En cuál?" />
           </div>
         </div>
-        <!-- Déjanos tus datos -->
-        <div class="third">
-          <div class="aboutMe">
-            <h2>¿Quieres que te informemos del avance de tu propuesta?</h2>
+
+        <!-- ¿Quieres que te avisemos? -->
+
+        <div class="section">
+          <div>
+            <h2 class="underline">Solo si quieres...?</h2>
+            <p>
+              Déjanos tus datos de contacto y te mantendremos informado del
+              profeso de las iniciativas.
+            </p>
           </div>
           <div>
-            <form action="">
-              Aquí formulario
-            </form>
+            <h3 class="underline">
+              <label for="otrosMunicipios"
+                >¿Lo has visto en otro municipio?</label
+              >
+            </h3>
+            <input type="text" name="otrosMunicipios" placeholder="¿En cuál?" />
+          </div>
+          <div class="btn">
+            <button type="submit" href="/">Registrar</button>
           </div>
         </div>
-      </section>
-      <!-- footer section -->
-      <footer>
-      <div class="footer">
-          <p>Desarrollado por Pau March</p>
-      </div>
-    </footer>
-    </main>
+      </main>
+        <!-- footer section -->
+        <footer>
+          <div class="footerFull">
+            <p>Desarrollado por Pau March</p>
+          </div>
+        </footer>
+      </form>
   </body>
 </html>

@@ -1,6 +1,74 @@
-textarea {
-    width: 100%;
-    border: solid;
-    border-color: aliceblue;
-    background-color: aquamarine;
+::placeholder {
+    color: whitesmoke;
+    opacity: 1;
 }
+
+textarea {
+
+    width: 100%;
+    border: none;
+    background-color: #111fff;
+    resize: none;
+    margin: 2vh 0 2vh 0;
+    border-bottom: solid whitesmoke;
+    border-bottom-width: 0.1rem;
+   
+
+}
+
+input {
+
+    border: none;
+    background-color: #111fff;
+    resize: none;
+    margin: 2vh 0 2vh 0;
+    border-bottom: solid whitesmoke;
+    border-bottom-width: 5px;
+
+}
+
+.personalData {
+
+    width: 100%;
+
+}
+
+.form-inline {
+
+    display: inline-flex;
+}
+
+
+
+select {
+    
+        width: 100%;
+        border: none;
+        color: whitesmoke;
+        background-color: #111fff;
+        resize: none;
+        margin: 2vh 0 2vh 0;
+
+        option {
+            margin-top: 1vh;
+            border-bottom: solid whitesmoke;
+            border-bottom-width: 0.1rem;
+            }
+        }
+
+button {
+
+    width: 100%;
+    border: solid whitesmoke;
+    border-width: 0.2rem;
+    background-color: #111fff;
+    resize: none;
+    padding: 1vh 0 1vh 0;
+    color: whitesmoke;
+
+}
+
+.btn {
+    margin-top: 2vh;
+}
+        

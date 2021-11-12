@@ -50,7 +50,11 @@ body {
 
 body h1 {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 9vw;
+}
+
+body h1 span {
+  font-weight: 300;
 }
 
 body li {
@@ -68,48 +72,130 @@ body p {
   text-align: justify;
 }
 
-.first {
-  padding-bottom: 5vh;
+body select {
+  font-size: 0.9 rem;
+  font-family: 'Roboto Mono', monospace;
 }
 
-.first h1 {
-  font-size: 9vw;
-  text-align: center;
+body input {
+  font-size: 0.9 rem;
+  font-family: 'Roboto Mono', monospace;
 }
 
-.first h1 span {
-  font-weight: 300;
+body button {
+  font-size: 1 rem;
+  font-weight: 700;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
 }
 
-.second {
-  display: -ms-grid;
-  display: grid;
-  width: 100%;
-}
-
-.second .aboutMe h2 {
-  font-size: 6vw;
+body .underline {
   background-image: linear-gradient(transparent calc(65% - 5px), #000cc4 5px);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   display: inline;
 }
 
-textarea {
-  width: 100%;
-  border: solid;
-  border-color: aliceblue;
-  background-color: aquamarine;
+body .underline h1 {
+  font-weight: bold;
+  font-size: 9vw;
 }
 
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0 5% 0 5%;
+body .underline h1 span {
+  font-weight: 300;
+}
+
+.section {
+  margin-top: 7vh;
+}
+
+::-webkit-input-placeholder {
+  color: whitesmoke;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: whitesmoke;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: whitesmoke;
+  opacity: 1;
+}
+
+::placeholder {
+  color: whitesmoke;
+  opacity: 1;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  background-color: #111fff;
+  resize: none;
+  margin: 2vh 0 2vh 0;
+  border-bottom: solid whitesmoke;
+  border-bottom-width: 0.1rem;
+}
+
+input {
+  border: none;
+  background-color: #111fff;
+  resize: none;
+  margin: 2vh 0 2vh 0;
+  border-bottom: solid whitesmoke;
+  border-bottom-width: 5px;
+}
+
+.personalData {
+  width: 100%;
+}
+
+.form-inline {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+select {
+  width: 100%;
+  border: none;
+  color: whitesmoke;
+  background-color: #111fff;
+  resize: none;
+  margin: 2vh 0 2vh 0;
+}
+
+select option {
+  margin-top: 1vh;
+  border-bottom: solid whitesmoke;
+  border-bottom-width: 0.1rem;
+}
+
+button {
+  width: 100%;
+  border: solid whitesmoke;
+  border-width: 0.2rem;
+  background-color: #111fff;
+  resize: none;
+  padding: 1vh 0 1vh 0;
+  color: whitesmoke;
+}
+
+.btn {
+  margin-top: 2vh;
 }
 
 body {
   color: whitesmoke;
   background-color: #111fff;
+}
+
+body .footerFull {
+  width: 100%;
+  position: absolute;
+  color: yellowgreen;
+  background-color: whitesmoke;
 }
 /*# sourceMappingURL=styles.css.map */

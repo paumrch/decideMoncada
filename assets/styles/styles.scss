@@ -1,18 +1,20 @@
 @import './navbar';
 @import './fonts';
-@import './first';
-@import './second';
+@import './section';
 @import './form';
 
-html {
-    box-sizing: border-box;
-    margin: 0 5% 0 5%;
-    
-}
 
 body {
     
     color: whitesmoke;
     background-color: #111fff;
+
+    .footerFull {
+
+        width: 100%;
+        position: absolute;
+        color: yellowgreen;
+        background-color: whitesmoke;
+    }
     
 }
