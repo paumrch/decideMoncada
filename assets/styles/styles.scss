@@ -2,16 +2,16 @@
 @import './fonts';
 @import './first';
 @import './second';
+@import './form';
 
 html {
     box-sizing: border-box;
+    margin: 0 5% 0 5%;
+    
 }
 
 body {
     
-    display: block;
-    width: 100%;
-    margin: auto;
     color: whitesmoke;
     background-color: #111fff;
     

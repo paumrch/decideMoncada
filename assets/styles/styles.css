@@ -46,7 +46,6 @@ body {
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
   font-size: 1rem;
-  color: #333;
 }
 
 body h1 {
@@ -63,32 +62,19 @@ body a {
   font-size: 1rem;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
-  color: #333;
+}
+
+body p {
+  text-align: justify;
 }
 
 .first {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
   padding-bottom: 5vh;
-}
-
-.first .avatar {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.first .avatar img {
-  width: 40vw;
 }
 
 .first h1 {
   font-size: 9vw;
+  text-align: center;
 }
 
 .first h1 span {
@@ -96,15 +82,9 @@ body a {
 }
 
 .second {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   width: 100%;
-}
-
-.second .aboutMe {
-  display: block;
-  margin-left: 3vw;
 }
 
 .second .aboutMe h2 {
@@ -115,15 +95,20 @@ body a {
   display: inline;
 }
 
+textarea {
+  width: 100%;
+  border: solid;
+  border-color: aliceblue;
+  background-color: aquamarine;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0 5% 0 5%;
 }
 
 body {
-  display: block;
-  width: 100%;
-  margin: auto;
   color: whitesmoke;
   background-color: #111fff;
 }
