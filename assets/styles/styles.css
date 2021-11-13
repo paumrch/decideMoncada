@@ -153,10 +153,6 @@ input {
   border-bottom-width: 0.1rem;
 }
 
-.personalData {
-  width: 100%;
-}
-
 .form-inline {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -196,6 +192,27 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.checkbox input {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 5vw;
+}
+
+.checkbox label {
+  font-size: .75rem;
+  margin-left: 1vw;
 }
 
 body {

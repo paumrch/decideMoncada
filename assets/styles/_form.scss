@@ -1,78 +1,72 @@
 ::placeholder {
-    color: whitesmoke;
-    opacity: 1;
+  color: whitesmoke;
+  opacity: 1;
 }
 
 textarea {
-
-    width: 100%;
-    border: none;
-    background-color: #111fff;
-    resize: none;
-    margin: 2vh 0 2vh 0;
-    border-bottom: solid whitesmoke;
-    border-bottom-width: 0.1rem;
-   
-
+  width: 100%;
+  border: none;
+  background-color: #111fff;
+  resize: none;
+  margin: 2vh 0 2vh 0;
+  border-bottom: solid whitesmoke;
+  border-bottom-width: 0.1rem;
 }
 
 input {
-
-    border: none;
-    width: 100%;
-    background-color: #111fff;
-    resize: none;
-    margin: 2vh 0 2vh 0;
-    border-bottom: solid whitesmoke;
-    border-bottom-width: 0.1rem;
-
-}
-
-.personalData {
-
-    width: 100%;
-
+  border: none;
+  width: 100%;
+  background-color: #111fff;
+  resize: none;
+  margin: 2vh 0 2vh 0;
+  border-bottom: solid whitesmoke;
+  border-bottom-width: 0.1rem;
 }
 
 .form-inline {
-
-    display: inline-flex;
+  display: inline-flex;
 }
 
-
-
 select {
-    
-        width: 100%;
-        border: none;
-        color: whitesmoke;
-        background-color: #111fff;
-        resize: none;
-        margin: 2vh 0 2vh 0;
+  width: 100%;
+  border: none;
+  color: whitesmoke;
+  background-color: #111fff;
+  resize: none;
+  margin: 2vh 0 2vh 0;
 
-        option {
-            margin-top: 1vh;
-            border-bottom: solid whitesmoke;
-            border-bottom-width: 0.1rem;
-            }
-        }
+  option {
+    margin-top: 1vh;
+    border-bottom: solid whitesmoke;
+    border-bottom-width: 0.1rem;
+  }
+}
 
 button {
-
-    width: 75%;
-    border: solid whitesmoke;
-    border-width: 0.1rem;
-    background-color: #111fff;
-    resize: none;
-    padding: 1vh 0 1vh 0;
-    color: whitesmoke;
-
+  width: 75%;
+  border: solid whitesmoke;
+  border-width: 0.1rem;
+  background-color: #111fff;
+  resize: none;
+  padding: 1vh 0 1vh 0;
+  color: whitesmoke;
 }
 
 .btn {
-
-    display: flex;
-    margin-top: 2vh;
-    justify-content: center;
+  display: flex;
+  margin-top: 2vh;
+  justify-content: center;
 }
-        
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  input {
+    display: inline-flex;
+    width: 5vw;
+  }
+  label {
+      font-size: .75rem;
+      margin-left: 1vw;
+  }
+}
