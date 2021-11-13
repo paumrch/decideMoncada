@@ -105,6 +105,10 @@ body .underline h1 span {
   font-weight: 300;
 }
 
+body .footer-text {
+  font-size: 0.875rem;
+}
+
 .section {
   margin-top: 7vh;
 }
@@ -141,11 +145,12 @@ textarea {
 
 input {
   border: none;
+  width: 100%;
   background-color: #111fff;
   resize: none;
   margin: 2vh 0 2vh 0;
   border-bottom: solid whitesmoke;
-  border-bottom-width: 5px;
+  border-bottom-width: 0.1rem;
 }
 
 .personalData {
@@ -174,9 +179,9 @@ select option {
 }
 
 button {
-  width: 100%;
+  width: 75%;
   border: solid whitesmoke;
-  border-width: 0.2rem;
+  border-width: 0.1rem;
   background-color: #111fff;
   resize: none;
   padding: 1vh 0 1vh 0;
@@ -184,7 +189,13 @@ button {
 }
 
 .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 2vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body {
@@ -194,7 +205,7 @@ body {
 }
 
 body main {
-  margin-left: 2vw;
+  margin: 0 3vw 0 3vw;
 }
 
 body footer {
@@ -208,5 +219,9 @@ body footer {
           align-items: center;
   color: #111fff;
   background-color: whitesmoke;
+}
+
+body footer p {
+  margin: 0 0 0 2vw;
 }
 /*# sourceMappingURL=styles.css.map */

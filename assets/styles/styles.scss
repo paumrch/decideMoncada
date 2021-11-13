@@ -9,7 +9,7 @@ body {
   margin: auto;
 
   main {
-      margin-left: 2vw;
+    margin: 0 3vw 0 3vw;
   }
 
   footer {
@@ -21,5 +21,8 @@ body {
     align-items: center;
     color: #111fff;
     background-color: whitesmoke;
+    p {
+        margin: 0 0 0 2vw;
+    }
   }
 }

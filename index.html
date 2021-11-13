@@ -140,7 +140,7 @@
         </div>
 
         <!-- Escribe tu propuesta -->
-        
+
         <div class="section">
           <div>
             <h2 class="underline">
@@ -184,24 +184,35 @@
             </p>
           </div>
           <div>
-            <h3 class="underline">
-              <label for="otrosMunicipios"
-                >¿Lo has visto en otro municipio?</label
-              >
-            </h3>
-            <input type="text" name="otrosMunicipios" placeholder="¿En cuál?" />
+            <div class="item">
+              <p>Name</p>
+              <div class="name-item">
+                <input type="text" name="name" placeholder="First" />
+                <input type="text" name="name" placeholder="Last" />
+              </div>
+            </div>
+            <div class="item">
+              <p>Email</p>
+              <input type="email" name="email" />
+            </div>
+            <div class="item">
+              <p>Phone</p>
+              <input type="text" name="phone" placeholder="### ### ####" />
+            </div>
           </div>
           <div class="btn">
             <button type="submit" href="/">Registrar</button>
           </div>
         </div>
-      </main>
-        <!-- footer section -->
-        <footer>
-          <div>
-            <p>Desarrollado por Pau March</p>
-          </div>
-        </footer>
       </form>
+    </main>
+
+    <!-- footer section -->
+    
+    <footer>
+      <div>
+        <p class="footer-text">Made with &#x2764; by Pau March</p>
+      </div>
+    </footer>
   </body>
 </html>

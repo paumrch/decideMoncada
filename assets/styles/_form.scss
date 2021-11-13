@@ -19,11 +19,12 @@ textarea {
 input {
 
     border: none;
+    width: 100%;
     background-color: #111fff;
     resize: none;
     margin: 2vh 0 2vh 0;
     border-bottom: solid whitesmoke;
-    border-bottom-width: 5px;
+    border-bottom-width: 0.1rem;
 
 }
 
@@ -58,9 +59,9 @@ select {
 
 button {
 
-    width: 100%;
+    width: 75%;
     border: solid whitesmoke;
-    border-width: 0.2rem;
+    border-width: 0.1rem;
     background-color: #111fff;
     resize: none;
     padding: 1vh 0 1vh 0;
@@ -69,6 +70,9 @@ button {
 }
 
 .btn {
+
+    display: flex;
     margin-top: 2vh;
+    justify-content: center;
 }
         
