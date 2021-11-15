@@ -70,6 +70,7 @@ body option {
 body h1 {
   font-weight: bold;
   font-size: 2.5em;
+  color: #111fff;
 }
 
 body h1 span {
@@ -79,26 +80,31 @@ body h1 span {
 body h2 {
   font-weight: bold;
   font-size: 2.25em;
+  color: #111fff;
 }
 
 body h3 {
   font-weight: bold;
   font-size: 2em;
+  color: #111fff;
 }
 
 body h4 {
   font-weight: bold;
   font-size: 2em;
+  color: #111fff;
 }
 
 body h5 {
   font-weight: bold;
   font-size: 2em;
+  color: #111fff;
 }
 
 body h6 {
   font-weight: bold;
   font-size: 2em;
+  color: #111fff;
 }
 
 body li {
@@ -131,6 +137,12 @@ body button {
   font-weight: 700;
   font-family: "Roboto Mono", monospace;
   text-transform: uppercase;
+}
+
+body button:hover {
+  background-color: whitesmoke;
+  border: solid #111fff 2px;
+  color: #111fff;
 }
 
 body .underline {
@@ -6402,7 +6414,6 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  color: #000;
   background-color: whitesmoke;
   margin: auto;
 }

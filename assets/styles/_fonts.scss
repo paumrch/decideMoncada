@@ -15,6 +15,8 @@ body {
   h1 {
     font-weight: bold;
     font-size: 2.5em;
+    color: #111fff;
+  
 
     span {
       font-weight: 300;
@@ -24,26 +26,31 @@ body {
   h2 {
     font-weight: bold;
     font-size: 2.25em;
+    color: #111fff;
   }
 
   h3 {
     font-weight: bold;
     font-size: 2em;
+    color: #111fff;
   }
 
   h4 {
     font-weight: bold;
     font-size: 2em;
+    color: #111fff;
   }
   
   h5 {
     font-weight: bold;
     font-size: 2em;
+    color: #111fff;
   }
 
   h6 {
     font-weight: bold;
     font-size: 2em;
+    color: #111fff;
   }
 
   li {
@@ -75,6 +82,12 @@ body {
     font-weight: 700;
     font-family: "Roboto Mono", monospace;
     text-transform: uppercase;
+
+    &:hover {
+      background-color: whitesmoke;
+      border: solid #111fff 2px;
+      color: #111fff;
+    }
   }
 
   .underline {
