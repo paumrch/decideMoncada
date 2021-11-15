@@ -4,8 +4,8 @@
 @import "./form";
 
 body {
-  color: whitesmoke;
-  background-color: #111fff;
+  color: #111fff;
+  background-color: whitesmoke;
   margin: auto;
 
   main {
@@ -21,6 +21,8 @@ body {
     align-items: center;
     color: #111fff;
     background-color: whitesmoke;
+    border-top: solid #111fff;
+    border-width: 1px;
     p {
         margin: 0 0 0 2vw;
     }

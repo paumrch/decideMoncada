@@ -30,11 +30,11 @@ nav li {
   display: inline-block;
   text-decoration: none;
   margin-right: 3rem;
-  color: whitesmoke;
+  color: #111fff;
 }
 
 nav li a {
-  color: whitesmoke;
+  color: #111fff;
 }
 
 nav img {
@@ -90,7 +90,7 @@ body button {
 }
 
 body .underline {
-  background-image: linear-gradient(transparent calc(65% - 5px), #000cc4 5px);
+  background-image: linear-gradient(transparent calc(65% - 5px), rgba(163, 203, 255, 0.342) 5px);
   background-size: cover;
   background-repeat: no-repeat;
   display: inline;
@@ -114,42 +114,42 @@ body .footer-text {
 }
 
 ::-webkit-input-placeholder {
-  color: whitesmoke;
+  color: #111fff;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: whitesmoke;
+  color: #111fff;
   opacity: 1;
 }
 
 ::-ms-input-placeholder {
-  color: whitesmoke;
+  color: #111fff;
   opacity: 1;
 }
 
 ::placeholder {
-  color: whitesmoke;
+  color: #111fff;
   opacity: 1;
 }
 
 textarea {
   width: 100%;
   border: none;
-  background-color: #111fff;
+  background-color: whitesmoke;
   resize: none;
   margin: 2vh 0 2vh 0;
-  border-bottom: solid whitesmoke;
+  border-bottom: solid #111fff;
   border-bottom-width: 0.1rem;
 }
 
 input {
   border: none;
   width: 100%;
-  background-color: #111fff;
+  background-color: whitesmoke;
   resize: none;
   margin: 2vh 0 2vh 0;
-  border-bottom: solid whitesmoke;
+  border-bottom: solid #111fff;
   border-bottom-width: 0.1rem;
 }
 
@@ -162,15 +162,15 @@ input {
 select {
   width: 100%;
   border: none;
-  color: whitesmoke;
-  background-color: #111fff;
+  color: #111fff;
+  background-color: whitesmoke;
   resize: none;
   margin: 2vh 0 2vh 0;
 }
 
 select option {
   margin-top: 1vh;
-  border-bottom: solid whitesmoke;
+  border-bottom: solid #111fff;
   border-bottom-width: 0.1rem;
 }
 
@@ -188,7 +188,7 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 2vh;
+  margin-top: 4vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -216,8 +216,8 @@ button {
 }
 
 body {
-  color: whitesmoke;
-  background-color: #111fff;
+  color: #111fff;
+  background-color: whitesmoke;
   margin: auto;
 }
 
@@ -236,6 +236,8 @@ body footer {
           align-items: center;
   color: #111fff;
   background-color: whitesmoke;
+  border-top: solid #111fff;
+  border-width: 1px;
 }
 
 body footer p {
