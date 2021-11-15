@@ -43,18 +43,62 @@ nav img {
 }
 
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 400;
-  font-size: 1rem;
+}
+
+body ::-webkit-input-placeholder {
+  font-size: 1.5em;
+}
+
+body :-ms-input-placeholder {
+  font-size: 1.5em;
+}
+
+body ::-ms-input-placeholder {
+  font-size: 1.5em;
+}
+
+body ::placeholder {
+  font-size: 1.5em;
+}
+
+body option {
+  font-size: 1.5em;
 }
 
 body h1 {
   font-weight: bold;
-  font-size: 9vw;
+  font-size: 2.5em;
 }
 
 body h1 span {
   font-weight: 300;
+}
+
+body h2 {
+  font-weight: bold;
+  font-size: 2.25em;
+}
+
+body h3 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+body h4 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+body h5 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+body h6 {
+  font-weight: bold;
+  font-size: 2em;
 }
 
 body li {
@@ -74,18 +118,18 @@ body p {
 
 body select {
   font-size: 0.9 rem;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 body input {
   font-size: 0.9 rem;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 body button {
   font-size: 1 rem;
   font-weight: 700;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-transform: uppercase;
 }
 
@@ -114,22 +158,22 @@ body .footer-text {
 }
 
 ::-webkit-input-placeholder {
-  color: #111fff;
+  color: #000;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: #111fff;
+  color: #000;
   opacity: 1;
 }
 
 ::-ms-input-placeholder {
-  color: #111fff;
+  color: #000;
   opacity: 1;
 }
 
 ::placeholder {
-  color: #111fff;
+  color: #000;
   opacity: 1;
 }
 
@@ -139,7 +183,7 @@ textarea {
   background-color: whitesmoke;
   resize: none;
   margin: 2vh 0 2vh 0;
-  border-bottom: solid #111fff;
+  border-bottom: solid #000;
   border-bottom-width: 0.1rem;
 }
 
@@ -149,7 +193,7 @@ input {
   background-color: whitesmoke;
   resize: none;
   margin: 2vh 0 2vh 0;
-  border-bottom: solid #111fff;
+  border-bottom: solid #000;
   border-bottom-width: 0.1rem;
 }
 
@@ -162,7 +206,7 @@ input {
 select {
   width: 100%;
   border: none;
-  color: #111fff;
+  color: #000;
   background-color: whitesmoke;
   resize: none;
   margin: 2vh 0 2vh 0;
@@ -170,7 +214,7 @@ select {
 
 select option {
   margin-top: 1vh;
-  border-bottom: solid #111fff;
+  border-bottom: solid #000;
   border-bottom-width: 0.1rem;
 }
 
@@ -178,7 +222,7 @@ button {
   width: 75%;
   border: solid whitesmoke;
   border-width: 0.1rem;
-  background-color: #111fff;
+  background-color: #000;
   resize: none;
   padding: 1vh 0 1vh 0;
   color: whitesmoke;
@@ -6311,8 +6355,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("./webfonts/fa-regular-400.eot");
-  src: url("./webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("./webfonts/fa-regular-400.woff2") format("woff2"), url("./webfonts/fa-regular-400.woff") format("woff"), url("./webfonts/fa-regular-400.ttf") format("truetype"), url("./webfonts/fa-regular-400.svg#fontawesome") format("svg");
+  src: url("../webfonts/fa-regular-400.eot");
+  src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
 
 .far {
@@ -6329,8 +6373,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("./webfonts/fa-solid-900.eot");
-  src: url("./webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("./webfonts/fa-solid-900.woff2") format("woff2"), url("./webfonts/fa-solid-900.woff") format("woff"), url("./webfonts/fa-solid-900.ttf") format("truetype"), url("./webfonts/fa-solid-900.svg#fontawesome") format("svg");
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
 }
 
 .fa,
@@ -6348,8 +6392,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("./webfonts/fa-brands-400.eot");
-  src: url("./webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("./webfonts/fa-brands-400.woff2") format("woff2"), url("./webfonts/fa-brands-400.woff") format("woff"), url("./webfonts/fa-brands-400.ttf") format("truetype"), url("./webfonts/fa-brands-400.svg#fontawesome") format("svg");
+  src: url("../webfonts/fa-brands-400.eot");
+  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
 
 .fab {
@@ -6358,7 +6402,7 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  color: #111fff;
+  color: #000;
   background-color: whitesmoke;
   margin: auto;
 }
@@ -6376,9 +6420,9 @@ body footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #111fff;
+  color: #000;
   background-color: whitesmoke;
-  border-top: solid #111fff;
+  border-top: solid #000;
   border-width: 1px;
 }
 

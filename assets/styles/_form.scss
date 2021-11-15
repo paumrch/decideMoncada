@@ -1,5 +1,5 @@
 ::placeholder {
-  color: #111fff;
+  color: #000;
   opacity: 1;
 }
 
@@ -9,7 +9,7 @@ textarea {
   background-color: whitesmoke;
   resize: none;
   margin: 2vh 0 2vh 0;
-  border-bottom: solid #111fff;
+  border-bottom: solid #000;
   border-bottom-width: 0.1rem;
 }
 
@@ -19,7 +19,7 @@ input {
   background-color: whitesmoke;
   resize: none;
   margin: 2vh 0 2vh 0;
-  border-bottom: solid #111fff;
+  border-bottom: solid #000;
   border-bottom-width: 0.1rem;
 }
 
@@ -30,14 +30,14 @@ input {
 select {
   width: 100%;
   border: none;
-  color: #111fff;
+  color: #000;
   background-color: whitesmoke;
   resize: none;
   margin: 2vh 0 2vh 0;
 
   option {
     margin-top: 1vh;
-    border-bottom: solid #111fff;
+    border-bottom: solid #000;
     border-bottom-width: 0.1rem;
   }
 }
@@ -46,7 +46,7 @@ button {
   width: 75%;
   border: solid whitesmoke;
   border-width: 0.1rem;
-  background-color: #111fff;
+  background-color: #000;
   resize: none;
   padding: 1vh 0 1vh 0;
   color: whitesmoke;

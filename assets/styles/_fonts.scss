@@ -1,76 +1,102 @@
-
 body {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 400;
+
+
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  
+  ::placeholder {
+    font-size: 1.5em;
+  }
+
+  option {
+    font-size: 1.5em;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 2.25em;
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  h4 {
+    font-weight: bold;
+    font-size: 2em;
+  }
+  
+  h5 {
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  h6 {
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  li {
+    text-transform: lowercase;
+  }
+
+  a {
+    font-weight: normal;
     font-size: 1rem;
+    text-decoration-line: none;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  select {
+    font-size: 0.9 rem;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  input {
+    font-size: 0.9 rem;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  button {
+    font-size: 1 rem;
+    font-weight: 700;
+    font-family: "Roboto Mono", monospace;
+    text-transform: uppercase;
+  }
+
+  .underline {
+    background-image: linear-gradient(
+      transparent calc(65% - 5px),
+      darken(rgba(214, 232, 255, 0.342), 10%) 5px
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline;
 
     h1 {
-        font-weight: bold;
-        font-size: 9vw;
-  
-        span {
-          font-weight: 300;
-        }
+      font-weight: bold;
+      font-size: 9vw;
 
+      span {
+        font-weight: 300;
       }
-
-    li {
-        text-transform: lowercase;
     }
+  }
 
-    a {
-        font-weight: normal;
-        font-size: 1rem;
-        text-decoration-line: none;
-    }
-
-    p {
-        text-align: justify;
-      }
-
-    select {
-
-        font-size: 0.9 rem;
-        font-family: 'Roboto Mono', monospace;
-    }
-
-    input {
-
-        font-size: 0.9 rem;
-        font-family: 'Roboto Mono', monospace;
-
-    }
-
-    button {
-        font-size: 1 rem;
-        font-weight: 700;
-        font-family: 'Roboto Mono', monospace;
-        text-transform: uppercase;
-    }
-
-
-    .underline {
-        background-image: linear-gradient(
-          transparent calc(65% - 5px),
-          darken(rgba(214, 232, 255, 0.342), 10%) 5px
-        );
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: inline;
-
-        h1 {
-            font-weight: bold;
-            font-size: 9vw;
-      
-            span {
-              font-weight: 300;
-            }
-          }
-
-      }
-
-      .footer-text {
-          font-size: 0.875rem;
-      }
-
+  .footer-text {
+    font-size: 0.875rem;
+  }
 }

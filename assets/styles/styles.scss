@@ -8,7 +8,7 @@
 @import "./brands.scss";
 
 body {
-  color: #111fff;
+  color: #000;
   background-color: whitesmoke;
   margin: auto;
 
@@ -23,9 +23,9 @@ body {
     height: 4vh;
     vertical-align: middle;
     align-items: center;
-    color: #111fff;
+    color: #000;
     background-color: whitesmoke;
-    border-top: solid #111fff;
+    border-top: solid #000;
     border-width: 1px;
     p {
         margin: 0 0 0 2vw;
