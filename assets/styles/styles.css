@@ -37,6 +37,14 @@ nav li a {
   color: #111fff;
 }
 
+nav li a:active {
+  text-decoration: underline;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
 nav img {
   width: 100px;
   vertical-align: middle;
